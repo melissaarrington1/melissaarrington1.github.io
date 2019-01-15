@@ -1,4 +1,110 @@
 body {
-    /* background: rgb(255,255,255); */
-    background: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(89,228,213,1) 51%, rgba(0,212,255,1) 100%);
+    padding: 20px;
+    font-family: 'Asap', sans-serif;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(89,228,213,1) 51%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: relative;
+    max-width: 840px;
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+    letter-spacing: -1px;
+    line-height: 1.7;
+    font-size: 1.5rem;
+    font-weight: 0px;;
+}
+#image {
+    margin-left: 0px;
+    height: 90px;
+}
+.nav {
+    /* display: flex; */
+    border: solid 1px;
+}
+
+ul {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.top-row {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+} 
+
+#first-box {
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke;
+    transition: all .2s ease;
+    transform: translateY(0);
+}
+
+#first-box:hover {
+    transition: all .2s ease;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 14px rgba(93,93,93,.1)
+}
+
+#tea-tree {
+    display: block;
+    position: relative;
+    height: 450px;
+    width: 500px;
+    margin-top: -19px;
+    margin-right: 0px;
+}
+#second-box {
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke;
+    transition: all .2s ease;
+    transform: translateY(0);
+}
+
+#second-box:hover {
+    transition: all .2s ease;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 14px rgba(93,93,93,.1)
+}
+
+#third-box {
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke;
+    transition: all .2s ease;
+    transform: translateY(0);
+}
+
+#third-box:hover {
+    transition: all .2s ease;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 14px rgba(93,93,93,.1)
+}
+
+#fourth-box {
+    border: 2px solid;
+    height: 500px;
+    width: 500px;
+    background-color: whitesmoke;
+    transition: all .2s ease;
+    transform: translateY(0);
+}
+
+#fourth-box:hover {
+    transition: all .2s ease;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 14px rgba(93,93,93,.1)
 }
