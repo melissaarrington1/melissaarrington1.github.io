@@ -6,70 +6,142 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Melissa's Portfolio</title>
-    <link rel='stylesheet' href='./style.css'>
-    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 
 <body>
-    <nav class="nav">
-        <img src="./M_Logo.png" alt="" id='image'>
-        
-    </nav>
-    <section>
-        <h1>Hello, I'm Melissa!</h1>
-        <h2 class="sub-header">An ambitious and fun full stack web developer, with a knack for research, and a
-            specialty in beautifully minimalistic design.</h2>
-    </section>
-    <section class="skills-section">
-        <div>
-            <h1>Skills</h1>
-            <hr>
-            <div class="logo-row">
-                <img class="logo-img" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="">
-                <img class="logo-img" src="https://proughwebdesign.com/wp-content/uploads/2018/08/css.png" alt="">
-                <img class="logo-img" src="https://www.chicagocomputerclasses.com/wp-content/uploads/2015/12/JavaScript-logo-training.png"
-                    alt="">
-                <img class="logo-img" src="https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.png" alt="">
-                <img class="logo-img" src="https://www.valentinog.com/blog/wp-content/uploads/2017/10/from-gulp-to-webpack-sass-to-css.png"
-                    alt="">
-                <img class="logo-img" src="https://servoy.com/wp-content/uploads/icon-bootstrap.png" alt="">
-                <img class="logo-img" src="https://cdn6.aptoide.com/imgs/b/2/3/b23d8b67ed5d68a4e3c2bc5ac9786f97_icon.png?w=240"
-                    alt="">
-            </div>
-        </div>
-    </section>
-    <hr>
-    <h1 class='header'>Featured Projects</h2>
 
-        <div class="top-row">
-            <a href="https://salty-lowlands-92993.herokuapp.com/">
-                <div id="first-box">Box 1
-                    <img id="tea-tree" src='./images/Screen Shot 2019-01-11 at 9.52.27 PM.png'>
-                    <h3>The Tea Tree</h3>
-                </div>
-            </a>
-            <a href="https://keen-varahamihira-b21572.netlify.com/index.html">
-                <div id="second-box">Box 2
-                    <img id="furry" src="./images/Furry.png" alt="">
-                    <h3>The "Furry" Hotel</h3>
-                </div>
-            </a>
-        </div>
-        <div class="bottom-row">
-            <a href="https://zealous-lamport-5d5ca1.netlify.com">
-                <div id="third-box">Box 3
-                    <img id="hang"src="./images/hangman.png" alt="">
-                    <h3>HangMan!</h3>
-                </div>
-            </a>
-            <a href="https://springer937-project-3.herokuapp.com/">
-            <div id="fourth-box">Box 4
-                <img id="weather" src="./images/weather.png" alt="">
-                <h3>Your Weather App</h3>
+    <nav class='nav-bar'>
+
+        <h3 class='nav-bar-title'></h3>
+        <ul class='nav-links'>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <section class='greeting-area'>
+            <div class='greeting-text'>
+                <h1 class='greeting-text-header'>Melissa Arrington</h1>
+                <h2 class="sub-header">An ambitious and fun full stack web developer, with a knack for research, and a
+                    specialty in beautifully minimalistic design.</h2>
+                <i class="fas fa-chevron-down"></i>
             </div>
-        </a>
+        </section>
+        <section class="skills-area">
+            <div>
+                <h1 class='header'>Skills</h1>
+
+                <div class="logo-container">
+                    <img class="logo-img" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="">
+                    <img class="logo-img" src="https://proughwebdesign.com/wp-content/uploads/2018/08/css.png" alt="">
+                    <img class="logo-img"
+                        src="https://www.chicagocomputerclasses.com/wp-content/uploads/2015/12/JavaScript-logo-training.png"
+                        alt="">
+                    <img class="logo-img" src="https://miro.medium.com/max/480/1*To2H39eauxaeYxYMtV1afQ.png" alt="">
+                    <img class="logo-img" src="./images/react-native-icon.png" alt="">
+                    <img class="logo-img" src="https://servoy.com/wp-content/uploads/icon-bootstrap.png" alt="">
+                    <img class="logo-img"
+                        src="https://cdn6.aptoide.com/imgs/b/2/3/b23d8b67ed5d68a4e3c2bc5ac9786f97_icon.png?w=240"
+                        alt="">
+                    <img src="http://www.tomsquest.com/img/posts/2018-10-02-better-npm-ing/npm_logo.png" alt=""
+                        class="logo-img">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/node-js-3-1174937.png" alt=""
+                        class="logo-img">
+                </div>
+            </div>
+        </section>
+
+        <div class='card-container'>
+            <h1 class='header'>Featured Projects</h2>
+                <div class='card-container-1'>
+                    <div class='mdl-card mdl-shadow--4dp'>
+                        <div class="mdl-card__media">
+                            <img src="./images/Screen Shot 2019-02-15 at 6.47.14 PM.png" alt="">
+                        </div>
+                        <div class='mdl-card__title'>
+                            <h2 class="mdl-card__title-text">The Tea Tree</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <p>The Tea Tree is a resource for tea enthusiasts.</p>
+                            <p>Login to your personal "Tea Tree" to select a type of tea, and save it to your
+                                collection.</p>
+                        </div>
+                        <div mdl-card__actions>
+
+                        </div>
+                    </div>
+
+                    <div class='mdl-card mdl-shadow--4dp'>
+                        <div class="mdl-card__media">
+                            <img src="./images/Simon_Screenshot.png" alt="">
+                        </div>
+                        <div class='mdl-card__title'>
+                            <h2 class="mdl-card__title-text">Simon!</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <p>The Tea Tree is a resource for tea enthusiasts.</p>
+                            <p>Login to your personal "Tea Tree" to select a type of tea, and save it to your
+                                collection.</p>
+                        </div>
+                        <div mdl-card__actions>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class='card-container-2'>
+                    <div class='mdl-card mdl-shadow--4dp'>
+                        <div class='mdl-card__title'>
+                            <h2 class="mdl-card__title-text">The Furry Hotel</h2>
+                        </div>
+                        <div class="mdl-card__media">
+                            <img src="./images/Screen Shot 2019-02-15 at 6.47.14 PM.png" alt="">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <p>The Tea Tree is a resource for tea enthusiasts.</p>
+                            <p>Login to your personal "Tea Tree" to select a type of tea, and save it to your
+                                collection.</p>
+                        </div>
+                        <div mdl-card__actions>
+
+                        </div>
+                    </div>
+
+                    <div class='mdl-card mdl-shadow--4dp'>
+                        <div class='mdl-card__title'>
+                            <h2 class="mdl-card__title-text">The Tea Tree</h2>
+                        </div>
+                        <div class="mdl-card__media">
+                            <img src="./images/Screen Shot 2019-02-15 at 6.47.14 PM.png" alt="">
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <p>The Tea Tree is a resource for tea enthusiasts.</p>
+                            <p>Login to your personal "Tea Tree" to select a type of tea, and save it to your
+                                collection.</p>
+                        </div>
+                        <div mdl-card__actions>
+
+                        </div>
+                    </div>
+                </div>
         </div>
- <h2 id="view">View my <span><a href='https://github.com/melissaarrington1'>GitHub</a></span> and <span><a href='https://www.linkedin.com/in/melissa-arrington-8bb60361/'>LinkedIn</a></span></h2>
+        </div>
+        </div>
+        <h2 class="footer">View my <span><a id='contact-links'
+                    href='https://github.com/melissaarrington1'>GitHub</a></span>
+            and <span><a id='contact-links'
+                    href='https://www.linkedin.com/in/melissa-arrington-8bb60361/'>LinkedIn</a></span></h2>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
 </body>
 
