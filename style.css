@@ -37,6 +37,10 @@ main {
   margin: 17px;
 }
 
+.logo {
+  height: 65px;
+}
+
 .nav-links {
   display: flex;
   float: right;
