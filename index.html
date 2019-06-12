@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src='./app.js'></script>
 </head>
 
 <body>
@@ -21,8 +23,8 @@
 
         <h3 class='nav-bar-title'></h3>
         <ul class='nav-links'>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Resume</a></li>
+            <li><a href="#featured">Projects</a></li>
+            <li><a href="./Melissa Arrington's Resume April 18 .docx (10).pdf">Resume</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
 
@@ -30,14 +32,15 @@
     <main>
         <section class='greeting-area'>
             <div class='greeting-text'>
-                <h1 class='greeting-text-header'><span>Melissa Arrington</span> </h1>
+                <h1 class='greeting-text-header' id="typed-strings"><span>Melissa Arrington</span> </h1>
                 <h2 class="sub-header">An ambitious and fun full stack <span>web developer</span>, with a knack for research, and a
                     specialty in beautifully minimalistic <span>design</span>.</h2>
-                <span><i class="fas fa-chevron-down"></i></span>
+                
+                <a href="#skills"><span><i class="fas fa-chevron-down"></i></span></a>
             </div>
         </section>
-        <section class="skills-area">
-            <div>
+        <section class="skills-area" id="skills">
+            <div class='skills-content'>
                 <h1 class='header'>Skills
                     
                 </h1>
@@ -71,18 +74,23 @@
     
                     <div class='mdl-card mdl-shadow--4dp'>
                         <div class="mdl-card__media">
-                            <img src="./images/Simon_Screenshot.png" alt="">
+                            <img src="./images/Screen Shot 2019-02-15 at 6.47.14 PM.png" alt="">
                         </div>
                         <div class='mdl-card__title'>
-                            <h2 class="mdl-card__title-text">Simon!</h2>
+                            <h2 class="mdl-card__title-text">The Tea Tree</h2>
                         </div>
                         <div class="mdl-card__supporting-text">
                             <p>The Tea Tree is a resource for tea enthusiasts.</p>
                             <p>Login to your personal "Tea Tree" to select a type of tea, and save it to your
                                 collection.</p>
+                                <span class="project-skill">HTML5</span>
+                                <span class="project-skill">CSS3</span>
+                                <span class="project-skill">Node.js</span>
+                                <span class="project-skill">Handlebars</span>
                         </div>
-                        <div mdl-card__actions>
-
+                        <div mdl-card__actions class="project-links">
+<a class='project-link'href="https://salty-lowlands-92993.herokuapp.com/">Live Demo</a>
+<a class='project-link' href="https://github.com/melissaarrington1/The-Tea-Tree">GitHub</a>
                         </div>
                     </div>
 
@@ -97,9 +105,14 @@
                             <p>The Tea Tree is a resource for tea enthusiasts.</p>
                             <p>Login to your personal "Tea Tree" to select a type of tea, and save it to your
                                 collection.</p>
+                                <span class="project-skill">HTML5</span>
+                                <span class="project-skill">CSS3</span>
+                                <span class="project-skill">JavaScript</span>
+                                
                         </div>
-                        <div mdl-card__actions>
-
+                        <div mdl-card__actions class="project-links">
+                            <a class='project-link'href="https://salty-lowlands-92993.herokuapp.com/">Live Demo</a>
+                            <a class='project-link' href="https://github.com/melissaarrington1/Simon">GitHub</a>
                         </div>
                     </div>
                 
@@ -109,36 +122,46 @@
 
                     <div class='mdl-card mdl-shadow--4dp'>
                         <div class="mdl-card__media">
-                            <img src="./images/Simon_Screenshot.png" alt="">
+                            <img src="./images/Screen Shot 2019-06-12 at 10.59.40 AM.png" alt="">
                         </div>
                         <div class='mdl-card__title'>
-                            <h2 class="mdl-card__title-text">Simon!</h2>
+                            <h2 class="mdl-card__title-text">The Furry Hotel</h2>
                         </div>
                         <div class="mdl-card__supporting-text">
                             <p>The Tea Tree is a resource for tea enthusiasts.</p>
                             <p>Login to your personal "Tea Tree" to select a type of tea, and save it to your
                                 collection.</p>
+                                <span class="project-skill">HTML5</span>
+                                <span class="project-skill">CSS3</span>
+                                <span class="project-skill">JavaScript</span>
+                                <span class="project-skill">JQuery</span>
                         </div>
-                        <div mdl-card__actions>
-
+                        <div mdl-card__actions class="project-links">
+                            <a class='project-link'href="https://keen-varahamihira-b21572.netlify.com">Live Demo</a>
+                            <a class='project-link' href="https://github.com/melissaarrington1/the-furry-hotel">GitHub</a>
                         </div>
                     </div>
                     
 
                     <div class='mdl-card mdl-shadow--4dp'>
                         <div class="mdl-card__media">
-                            <img src="./images/Simon_Screenshot.png" alt="">
+                            <img src="./images/swoosh.png" alt="">
                         </div>
                         <div class='mdl-card__title'>
-                            <h2 class="mdl-card__title-text">Simon!</h2>
+                            <h2 class="mdl-card__title-text">Swoosh!</h2>
                         </div>
                         <div class="mdl-card__supporting-text">
                             <p>The Tea Tree is a resource for tea enthusiasts.</p>
                             <p>Login to your personal "Tea Tree" to select a type of tea, and save it to your
                                 collection.</p>
+                                <span class="project-skill">HTML5</span>
+                                <span class="project-skill">CSS3</span>
+                                <span class="project-skill">Node.js</span>
+                                <span class="project-skill">Handlebars</span>
                         </div>
-                        <div mdl-card__actions>
-
+                        <div mdl-card__actions class="project-links">
+                            <a class='project-link'href="https://nbaswoosh.herokuapp.com/">Live Demo</a>
+                            <!-- <a class='project-link' href="https://github.com/melissaarrington1/The-Tea-Tree">GitHub</a> -->
                         </div>
                     </div>
                 
