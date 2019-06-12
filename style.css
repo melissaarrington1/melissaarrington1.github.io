@@ -219,6 +219,9 @@ img {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
   .greeting-text-header {
     text-align: center;
     width: 100%;
@@ -249,14 +252,15 @@ img {
     display: grid;
     background-color: rgb(225, 234, 237);
   }
+  .project-skills-links {
+    display: flex;
+  }
 
   .mdl-card {
     margin: 0.7em;
     height: 36.5em;
   }
-  .project-skills-links {
-    display: flex;
-  }
+
   .footer {
     font-family: "Work Sans", sans-serif;
     font-size: 20px;
