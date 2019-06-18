@@ -67,16 +67,6 @@ a {
 a:hover {
   color: #29c6b2;
 }
-/* @media screen and (max-width: 479px) {
-    .nav-bar {
-        display: none;
-    }
-
-    * {
-        background: whitesmoke;
-        text-align: center;
-    }
-} */
 
 /* greeting section */
 .greeting-area {
@@ -119,11 +109,23 @@ span {
   color: #29c6b2;
 }
 
-.fas {
+.arrow {
   font-size: 35px;
   margin: 72px;
   transition: all 0.2s;
-  animation: ease-in-out infinite;
+  animation: down-arrow-bounce 1s ease-in-out infinite;
+}
+
+@keyframes down-arrow-bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* skills area */
