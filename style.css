@@ -20,23 +20,19 @@ main {
 }
 
 /* navbar */
-.nav-bar {
+/* .nav-bar {
   height: 8vh;
   width: 100vw;
   display: inline-block;
-}
+} */
 
-.nav-bar-title {
+/* .nav-bar-title {
   color: gray;
   font-size: 1.5em;
   width: 129px;
   margin: auto;
   float: left;
   margin: 17px;
-}
-
-.logo {
-  height: 65px;
 }
 
 .nav-links {
@@ -47,6 +43,17 @@ main {
   height: 33px;
   margin: 25px;
   text-decoration: none;
+} */
+
+.nav-link-icons {
+  text-align: right;
+}
+.fab {
+  font-size: 32px;
+  margin-right: 20px;
+  padding-top: 10px;
+  position: relative;
+  margin-bottom: 50px;
 }
 
 li {
@@ -119,7 +126,7 @@ p span {
 }
 
 .greeting-text {
-  margin-top: 120px;
+  margin-top: 40px;
 }
 
 #design-span {
